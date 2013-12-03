@@ -18,6 +18,8 @@
 		C2B5986E184E20250009D4F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B5986D184E20250009D4F2 /* Default-568h@2x.png */; };
 		C2B59871184E20250009D4F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B59870184E20250009D4F2 /* ViewController.m */; };
 		C2B59874184E20250009D4F2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B59872184E20250009D4F2 /* ViewController.xib */; };
+		C2B5987C184E20480009D4F2 /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B5987B184E20480009D4F2 /* FeedTableViewController.m */; };
+		C2B5987F184E2D700009D4F2 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B5987E184E2D700009D4F2 /* PhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		C2B5986F184E20250009D4F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C2B59870184E20250009D4F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C2B59873184E20250009D4F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C2B5987A184E20480009D4F2 /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		C2B5987B184E20480009D4F2 /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		C2B5987D184E2D700009D4F2 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		C2B5987E184E2D700009D4F2 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,10 @@
 		C2B5984B184E20250009D4F2 = {
 			isa = PBXGroup;
 			children = (
+				C2B5987A184E20480009D4F2 /* FeedTableViewController.h */,
+				C2B5987B184E20480009D4F2 /* FeedTableViewController.m */,
+				C2B5987D184E2D700009D4F2 /* PhotoViewController.h */,
+				C2B5987E184E2D700009D4F2 /* PhotoViewController.m */,
 				C2B5985D184E20250009D4F2 /* TabController */,
 				C2B59856184E20250009D4F2 /* Frameworks */,
 				C2B59855184E20250009D4F2 /* Products */,
@@ -176,6 +186,8 @@
 				C2B59864184E20250009D4F2 /* main.m in Sources */,
 				C2B59868184E20250009D4F2 /* AppDelegate.m in Sources */,
 				C2B59871184E20250009D4F2 /* ViewController.m in Sources */,
+				C2B5987C184E20480009D4F2 /* FeedTableViewController.m in Sources */,
+				C2B5987F184E2D700009D4F2 /* PhotoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
